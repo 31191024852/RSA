@@ -18,6 +18,13 @@
     <div class='container'>
         <div class="d-flex p-5 justify-content-center">
         <?php
+            if($data['ver']!=null){
+                echo "<h3>".$data['ver']."</h3>";
+            }else{
+                echo "<h3>Đi đâu đây</h3>";
+            }
+        ?>
+        <?php
             if($data['dow']!=null){
                 echo "<a href='download&file=".$data['dow']."' class='btn btn-info btn-login'>Download Kết Quả</a> ";
             }else{

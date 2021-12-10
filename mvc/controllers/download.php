@@ -25,7 +25,8 @@
                     }
                 }
                 $dow = isset($_SESSION['dow'])? $_SESSION['dow']:NULL;
-                $this->view('download',['dow'=>$dow]);
+                $ver = isset($_SESSION['verify'])? $_SESSION['verify']:NULL;
+                $this->view('download',['dow'=>$dow,'ver'=>$ver]);
             }
             
         }

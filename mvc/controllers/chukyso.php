@@ -5,6 +5,7 @@
                 header('Location: login');
             }else{
                 $chukyso = $this->model('process');
+                $chukyso ->my_sign();
                 $this->view('chukyso',[]);
             }
             

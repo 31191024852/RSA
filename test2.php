@@ -26,16 +26,8 @@
     
     //Manage to make it work at last.
 
-    $dn = array(
-        "countryName" => "XX",
-        "stateOrProvinceName" => "Location",
-        "localityName" => "Local",
-        "organizationName" => "Sample Organization",
-        "organizationalUnitName" => "Organizational Unit",
-        "commonName" => "Sample",
-        "emailAddress" => "contactus@email.com"
-    );
-
+    $crt = file_get_contents('C:\xampp\htdocs\RSA\key\crt\5914bfe3b399a2556ffc730f19166b22.pem');
+    echo $crt;
 
     function signAndEncrypt(string $rawData): string
     {

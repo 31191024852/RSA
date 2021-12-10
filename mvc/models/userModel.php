@@ -48,7 +48,7 @@
                     $result = mysqli_query($this->con,$sql);
                     if (is_bool($result)) {
                         $key = $createkey->createKey($cccd);
-                        $qr = "INSERT INTO `tbl_users` VALUES (NULL,'$fullname','$email','$password','".$key['privatekey']."','".$key['publickey']."','".$key['crt']."');";
+                        $qr = "INSERT INTO `tbl_users` VALUES (NULL,'$fullname','$email','$password','".$key['privatekey']."','".$key['publickey']."');";
                         echo $qr;
                         $add = mysqli_query($this->con,$qr);
                         if($add){

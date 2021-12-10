@@ -31,10 +31,6 @@
                 <label>Public Key: </label>
                 <label><?php echo $data['pro']['Public'] ?></label>
             </div>
-            <div class="mb-3">
-                <label>Chữ ký số: </label>
-                <label><?php echo $data['pro']['Certificate'] ?></label>
-            </div>
         </div>
     </div>
 </body>
