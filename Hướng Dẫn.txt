@@ -1,5 +1,5 @@
 Để dùng sử dụng thì cần chỉnh các cấu hình sau:
-Bước 1: Import CSDL 'rsa.sql'
+Bước 1: Import CSDL 'rsa.sql' trong thư mục này
 Bước 2: Nếu không cài Xampp trong ổ C thì thay đổi trong file index.php file các dòng
         {
             define('BASE_URL', "http://localhost/RSA"); --> Link host
@@ -14,4 +14,4 @@ Bước 3: Nếu không sử dụng phpmyadmin của Xampp hoặc có thây đ�
         }
 Bước 4: Để chạy ứng dụng thì mở Xampp hoặc chạy Host đã cài đặt. (VD: localhost/RSA/Home)
 
-Sử dụng các chức năng có thể xem video ở link: 
+Sử dụng các chức năng có thể xem video ở link: https://drive.google.com/file/d/1Yb8TYAiQRplu5p9ekls6PVl-5zOTWTQO/view?usp=sharing
