@@ -12,6 +12,7 @@ Bước 3: Nếu không sử dụng phpmyadmin của Xampp hoặc có thây đ�
             protected $password = "";
             protected $dbname = "rsa"; --> Tên CSDL
         }
-Bước 4: Để chạy ứng dụng thì mở Xampp hoặc chạy Host đã cài đặt. (VD: localhost/RSA/Home)
+Bước 4: Tạo thêm một thư mục tên 'uploads'. (Vì github không cho lưu các thư mục trống)
+Bước 5: Để chạy ứng dụng thì mở Xampp hoặc chạy Host đã cài đặt. (VD: localhost/RSA/Home)
 
 Sử dụng các chức năng có thể xem video ở link: https://drive.google.com/file/d/1Yb8TYAiQRplu5p9ekls6PVl-5zOTWTQO/view?usp=sharing
