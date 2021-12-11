@@ -1,0 +1,17 @@
+Để dùng sử dụng thì cần chỉnh các cấu hình sau:
+Bước 1: Import CSDL 'rsa.sql'
+Bước 2: Nếu không cài Xampp trong ổ C thì thay đổi trong file index.php file các dòng
+        {
+            define('BASE_URL', "http://localhost/RSA"); --> Link host
+            define('SSS', "C:/xampp/htdocs/RSA"); --> Thư mục lưu file
+        }
+Bước 3: Nếu không sử dụng phpmyadmin của Xampp hoặc có thây đổi trong cấu hình thì thay đổi trong file db.php các dòng
+        {
+            protected $servername = "localhost";
+            protected $username = "root";
+            protected $password = "";
+            protected $dbname = "rsa"; --> Tên CSDL
+        }
+Bước 4: Để chạy ứng dụng thì mở Xampp hoặc chạy Host đã cài đặt. (VD: localhost/RSA/Home)
+
+Sử dụng các chức năng có thể xem video ở link: 
