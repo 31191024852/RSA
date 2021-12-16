@@ -15,9 +15,7 @@
             // Extract public key from the pair
             $key_details = openssl_pkey_get_details($resource);
             $public_key = $key_details["key"];
-            // if(openssl_pkey_export_to_file($public_key, SSS.'./key/public/'.md5($namepri).'.pem' )){
-            //     echo "<script> alert('Key không tồn tại. Vui long nhập lại')</script>";
-            // }
+            
             file_put_contents(SSS.'/key/public/'.md5($namepri).'.pem', $public_key);
             
             
