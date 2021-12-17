@@ -17,8 +17,7 @@
             $public_key = $key_details["key"];
             
             file_put_contents(SSS.'/key/public/'.md5($namepri).'.pem', $public_key);
-            
-            
+
             $key['publickey'] = md5($namepri);
             $key['privatekey'] = $namepri;
             return $key;
